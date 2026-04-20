@@ -1,0 +1,11 @@
+[project]
+name = "netflix-analytics-platform"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dbt>=1.0.0.40.16",
+    "dbt-core>=1.11.8",
+    "dbt-snowflake>=1.11.4",
+]
