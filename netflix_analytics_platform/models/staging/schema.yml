@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: movies
+    description: "Movie models for Netflix Analytics Platform"
+    columns:
+      - name: movieid
+        description: "Unique identifier for the record"
+        tests:
+          - unique
+          - not_null
+          - no_negative_values
