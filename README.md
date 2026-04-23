@@ -3,4 +3,4 @@ Scalable data analytics platform for Netflix insights built on AWS, Snowflake, a
 
 
 ## Architecture Diagram
-!Architecture[docs\Architecture Diagram.png]
+![Architecture](docs/Architecture%20Diagram.png)
