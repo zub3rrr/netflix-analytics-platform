@@ -35,3 +35,9 @@ models:
     example:
       +materialized: view
 
+# Configuring seeds
+# Full documentation: https://docs.getdbt.com/docs/configuring-seeds
+seeds:
+  netflix_analytics_platform:
+    +schema: seed_data
+
